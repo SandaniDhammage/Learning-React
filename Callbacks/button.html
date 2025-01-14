@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click Me</button>
+</body>
+<script>
+    document.getElementById("btn").addEventListener("click",click)//this also a callback function (when one function calla, after we want another function to call..then use callback. normally use in after asyn functions)
+        function click(){
+            console.log("button clicked");
+        }
+    
+</script>
+</html>
